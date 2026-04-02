@@ -1,0 +1,25 @@
+{
+  "name": "slay-roulette",
+  "version": "1.0.0",
+  "description": "Bot Discord de défis de style aléatoires pour Infinity Nikki",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "node deploy-commands.js",
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "infinity-nikki"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.25.1",
+    "dotenv": "^17.3.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.1"
+  }
+}

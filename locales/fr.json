@@ -1,0 +1,36 @@
+{
+  "slay": {
+    "result": "{theme} - {style} - {color} - {twist}",
+    "empty": "Impossible de générer un défi — une ou plusieurs listes sont vides."
+  },
+  "isExist": {
+    "found": "**{item}** a été trouvé dans : {lists}",
+    "notFound": "**{item}** n'a été trouvé dans aucune liste."
+  },
+  "add": {
+    "success": "**{item}** a été ajouté à la liste **{list}**.",
+    "duplicate": "**{item}** existe déjà dans : **{lists}**. L'ajouter quand même ?",
+    "cancelled": "Ajout annulé.",
+    "timeout": "Aucune réponse reçue — ajout annulé."
+  },
+  "del": {
+    "success": "**{item}** a été supprimé de la liste **{list}**.",
+    "notFound": "**{item}** n'a pas été trouvé dans la liste **{list}**."
+  },
+  "show": {
+    "title": "Liste **{list}** ({count} entrées) :",
+    "content": "{items}",
+    "empty": "La liste **{list}** est vide.",
+    "allTitle": "Toutes les listes :"
+  },
+  "permission": {
+    "denied": "Tu n'as pas la permission d'utiliser cette commande."
+  },
+  "error": {
+    "generic": "Une erreur est survenue lors de l'exécution de cette commande."
+  },
+  "confirm": {
+    "yes": "Oui",
+    "no": "Non"
+  }
+}

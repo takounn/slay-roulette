@@ -1,0 +1,36 @@
+{
+  "slay": {
+    "result": "{theme} - {style} - {color} - {twist}",
+    "empty": "Cannot generate a challenge — one or more lists are empty."
+  },
+  "isExist": {
+    "found": "**{item}** was found in: {lists}",
+    "notFound": "**{item}** was not found in any list."
+  },
+  "add": {
+    "success": "**{item}** has been added to the **{list}** list.",
+    "duplicate": "**{item}** already exists in: **{lists}**. Add it anyway?",
+    "cancelled": "Addition cancelled.",
+    "timeout": "No response received — addition cancelled."
+  },
+  "del": {
+    "success": "**{item}** has been removed from the **{list}** list.",
+    "notFound": "**{item}** was not found in the **{list}** list."
+  },
+  "show": {
+    "title": "**{list}** list ({count} entries):",
+    "content": "{items}",
+    "empty": "The **{list}** list is empty.",
+    "allTitle": "All lists:"
+  },
+  "permission": {
+    "denied": "You don't have permission to use this command."
+  },
+  "error": {
+    "generic": "An error occurred while executing this command."
+  },
+  "confirm": {
+    "yes": "Yes",
+    "no": "No"
+  }
+}
